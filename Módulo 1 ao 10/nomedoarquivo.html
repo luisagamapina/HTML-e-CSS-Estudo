@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <!-- Imagem do Ícone -->
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/144131/isolated/preview/29576a7e0442960346703d3ecd6bac04-icone-de-doodle-de-imagem.png" type="image/x-icon">
+    <!-- melhor usar arquivo .ico, mas .png dá certo às vezes tbm -->
+    <title>Aula 1</title> <!-- Nome que aparece na Guia de Cima -->
+</head>
+<body>
+    <!-- Títutos e Subtítulos -->
+    <h1>Olá, MUNDO!</h1> <!--Esse é para título  -->
+    <h2>Subtítulo</h2>
+    <h3>Sub Subtítulo</h3> <!-- vai do h1 a h6 -->
+
+    <hr> <!-- Linha Horizontal -->
+
+    <p>Meu primeiro site por LUÍSA GAMA!</p> <!-- Parágrafo -->
+    <p>Testando Atualização do SITE agora.</p> <!-- Só Atualizar -->
+
+    <p><em>Não adianta</em> eu separar com <b>espaços</b>. 
+    <br> Aqui, isso <strong>não funciona</strong> como <i>quebra de linha</i>. </p> 
+    <!-- Br é quebra de linha -->
+    <!-- &lt;p&gt; e &lt;/p&gt; less than(<) e greather than(>) -->
+    <!-- b ou strong para colocar em negrito, e, i ou em para itálico -->
+
+
+    <!-- Adicionar Imagem -->
+    <img src="IMAGENS/Captura de tela 2025-12-06 014044.png" alt=" Teste de Imagem">
+    <!-- scr (origem do arquivo) abrir: Ctrl + espaço/barra, e, alt (txt que explica melhor a imagem/descrição)-->
+    <!-- se quiser imagem dentro de pasta, colocar:
+    nomedapasta / nomedaimagem -->
+    <!-- no "src" posso colar um endereço de imagem
+    do google mesmo (url) -->
+
+    <!-- Modificar Palavras e Textos -->
+    <p>Lorem ipsum dolor sit amet <mark>consectetur</mark>, x<sup>2</sup>+3 e H<sub>2</sub>O adipisicing <ins>elit</ins>. Blanditiis nam <del>voluptates</del> minus porro necessitatibus nemo quas eveniet <big>quae delectus</big>, omnis officiis modi amet ut ab <small>obcaecati veniam</small>, dignissimos quis tenetur.</p>
+    <!-- lorem para texto aleatório -->
+    <!-- usa mark para ser tipo um marca texto -->
+    <!-- big para aumentar letra e small para diminuir letra -->
+    <!-- usa del para riscar palavra -->
+    <!-- ins ou u para sublinhar palavra -->
+    <!-- sup para elevar a palavra e sub para abaixar a palavra -->
+
+
+    <p>Lorem ipsum dolor <code>sitametconsectetu</code>r, adipisicing elit. 
+        <pre>Distinctio possimus vero nulla! Error natus modi 
+          ullam non laborum quod aperiam autem quaerat, voluptatum harum rem, 
+           nam beatae accusamus obcaecati labore!</p></pre>
+    <!-- code ajuda as letras ficarem do mesmo tamanho(mono espaçadas) -->
+    <!-- pre usa para deixar o texto como visualmente como mostra aqui -->
+
+
+    <p>Lorem ipsum dolor, <abbr title="LUÍSA">Lu</abbr> sit amet consectetur adipisicing elit. 
+        <blockquote>Laboriosam facere tempore, quod officiis consequatur fugiat unde culpa similique a optio, repudiandae totam perferendis officia doloremque voluptate hic nulla dolorum quia!</p></blockquote>
+    <!-- blockquote serve para deixar como citação. Logo após o primeiro blockquote, posso colocar cite e o link da citação. -->
+    <!-- abbr é para mostrar o nome completo da abreviação-->
+
+
+    <!-- Listas -->
+    
+    <h1>Listas</h1>
+    <!-- li para listar (/li opcional) -->
+    <h4>Afazeres:</h4>
+    <!-- Posso fazer sub listas dentro dessas primeiras listas -->
+    <ol type="1" start="3">
+        <li>Acordar</li>
+        <li>Arrumar Cama
+        <li>Beber Café
+        <li>Compras: </li>
+    </ol>
+    <!-- "ol" para listas ordenadas -->
+    <!-- "type" para tipo dos ícones ( 1 A a I i ) -->
+    <!-- "start" de onde começa contagem da lista (sempre numérico) -->
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Batata</li>
+        <li>Tomate</li>
+        <li>Leite</li>
+    </ul>
+    <!-- "ul" para listas não ordenadas -->
+    <!-- "type" para tipo dos ícones ( disc square circle) -->
+    <!-- Para trocar de "ol" para "ul" rápido, por exemplo, basta segurar "alt" e clicar depois da letra a ser substituída -->
+   
+    <h4>Nome da Estudante: </h4>
+    <dl>
+     <dt>Luísa</dt>
+     <dd>Luísa é o nome da estudante</dd>
+     <dt>Gama</dt>
+     <dd>Gama é o sobrenome da estudante</dd>
+   </dl>
+
+   <h1>LINKS</h1>
+   <p>Você pode acessar meu Github <a href="https://github.com/luisagamapina" target="_blank" rel="external">aqui.</a></p>
+   <p>Você pode acessar meu segundo site <a href="SITEEXTRA/flowey.html" target="_blank" rel="next" >aqui!</a></p>
+   <!-- "a" para criar link -->
+   <!-- "target="_blank"" para abrir uma guia nova -->
+   <!-- rel para referenciar qual página é aquela ( next prev nofollow(não dá aval) external) -->
+   <!--  target="_self" janela padrão-->
+   <!-- # para substituir links (campo de link vazio) -->
+
+   <h1>LINKS DOWNLOAD</h1>
+   <p><a href="PDFEXTRA/teste.pdf" download="teste.pdf" type="application/pdf" >Baixar PDF aleatório!</a></p> 
+   <!-- Não funcionou não, mas na aula dele, arquivo .zip funcionou  -->
+</body>
+</html>
