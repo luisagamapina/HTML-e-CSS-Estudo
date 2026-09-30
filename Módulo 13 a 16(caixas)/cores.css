@@ -1,0 +1,15 @@
+body{
+
+    h1#principal{
+
+        background-color: bisque;
+    }
+
+    .titulo{
+        background-color: blueviolet;
+    }
+    /* Não precisa colocar o tipo, apenas o apelido */
+    .bonito{
+        color: pink;
+    }
+}

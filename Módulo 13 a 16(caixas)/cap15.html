@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap15</title>
+    <link rel="stylesheet" href="cores.css">
+    <style> div{
+        display: inline-block; /* tudo na mesma linha */
+        background-color: lightgray;
+        border: lpx solid black; /* largura tipo cor */
+        text-align: center;
+        height: 200px; /* altura */
+        width: 200px; /* largura */
+    }
+    div:hover{
+        background-color: blueviolet;
+    }
+    div > p{
+        display: none;
+    }
+    div:hover > p{
+        display: block;
+        color: white;
+        background-color: red;
+    }
+    /* " : " para pseudo classes (definem estados de elementos dentro da html) */
+
+    a{
+        color: blue;
+        text-decoration: none;
+    }
+    a:hover{
+        color: lightblue;
+    }
+    a:visited{
+        color: blueviolet;
+    }
+    a:active{
+        color: antiquewhite;
+    }
+    a::after{
+        content: '[link]';
+        text-decoration: nome;
+        font-weight: normal;
+        color: lightcoral;
+    }
+    </style>
+    
+</head>
+<body>
+
+    <!-- em HTML é id = "nome" e em CSS é tipo#nome (só pode 1 elemento) -->
+    <!-- em HTML é class = "nome" e em CSS é .nome (pode vários elementos) -->
+    <!-- : é pseudo-class -->
+    <!-- :: é pseudo-element  -->
+    <!-- > é children -->
+
+
+    <h1 id="principal" class="bonito">Título e Título</h1>
+    <h2 class="titulo">Título 1</h2>
+    <p>Lorem, ipsum dolor sit <span class="titulo">amet</span> consectetur adipisicing elit. Ipsam perferendis omnis explicabo ratione odio. Iusto a necessitatibus veritatis unde ullam reprehenderit quo quidem maxime officiis fuga ratione, tempore facilis quis.</p>
+    <h2 class="titulo">Título 2</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus placeat libero alias, autem magnam et obcaecati molestias veritatis, est reiciendis quidem nisi expedita labore qui tempore quas, saepe laboriosam voluptas.</p>
+    <h2 class="titulo bonito">Título 3</h2>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis numquam atque porro, eligendi minima recusandae, voluptate magni officiis voluptas dolor saepe culpa corrupti voluptatum delectus quos doloribus voluptatibus consequatur ipsa.
+    <!-- Para 2 classes diferentes, só colocar juntas e sem vírgula -->
+
+    <br>
+    <div id = "d1">01</div>
+    <div id = "d2">02</div>
+    <div id = "d3">03</div>
+    <!-- div é um exemplo de box-level e span é um exemplo de inline-level -->
+    
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse sobre o texto</p>
+    <div>Passe o mouse aqui!
+        <p> Texto Escondido... </p>
+    </div>
+    <p> Fim do Exemplo </p>
+
+    <h1>Personalizando Links</h1>
+    <li><a href="https://luisagamapina.github.io" target="_blank">Meu GITHUB</a></li>
+</body>
+</html>
