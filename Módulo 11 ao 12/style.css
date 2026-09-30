@@ -1,0 +1,11 @@
+@charset "UTF-8"
+
+body{
+            background-color: rgb(212, 255, 255);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        h2{
+           color: blue; 
+           background-color: aqua;
+        }
